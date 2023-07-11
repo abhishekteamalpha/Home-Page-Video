@@ -1,0 +1,35 @@
+:root {
+    --modal-duration: 1s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+header {
+    /* background-image:url(https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/); */
+    background-image:url('background/tree-g6a2122430_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container h1 {
+    font-size: 4rem;
+    color: white;
+
+}
